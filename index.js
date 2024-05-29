@@ -16,3 +16,17 @@ console.log(token);
 
 const verify_token=jwt.verify(token,"secret");
 console.log(verify_token);
+
+
+
+
+// try and catch 
+// this is used when you are not sure about the code that partially it can give you error we write this 
+try {
+    let a;
+    console.log(a.length);
+}catch(e){
+    console.log("inside the catch");
+}
+
+console.log("hi ")
